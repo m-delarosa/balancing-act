@@ -1,0 +1,197 @@
+html {
+background-color: #f5f5f5;
+font-family: 'Biryani', sans-serif;
+color: #363636;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+nav {
+  height: 100%;
+  width: 6%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 80%;
+  margin-bottom: 200px;
+}
+
+nav img {
+  width: 50%;
+}
+
+.navlink {
+  margin-bottom: 20px;
+}
+
+main {
+  margin-left: 100px;
+}
+
+header {
+  margin-left: 38px;
+  margin-top: 38px;
+}
+
+.leftcolumn {
+  margin-left: 3%;
+  height: 400px;
+  width: 500px;
+  float: left;
+}
+
+#welcome {
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  height: 80px;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+#welcome h3 {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+#x_button {
+  width: 10px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#summary_section {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.summary_card {
+  display: inline-block;
+  height: 80px;
+  width: 150px;
+  float: left;
+  background-color: white;
+  box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
+  border-radius: 3px;
+}
+
+.summary_card h6 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.summary_card h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.summary_card:not(:last-child) {
+  margin-right: 25px;
+}
+
+/* #center_white_space {
+  width: 300px;
+  height: 100%;
+} */
+
+.accounts_header {
+  height: 80px;
+}
+.accounts_header h2 {
+  display: inline-block;
+}
+
+.accounts_header button {
+  display: inline-block;
+  float: right;
+}
+
+.turq_button {
+  background-color: #1CA3BA;
+  color: white;
+  border-radius: 2em;
+  box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
+  font-family: 'Biryani';
+  border-style: none;
+  padding: 5px 15px 0px 15px;
+  margin-top: 25px;
+  font-size: medium;
+}
+
+.account_card {
+  height: 55px;
+  background-color: white;
+  box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
+  margin-bottom: 10px;
+}
+
+.account_card img {
+display: inline-block;
+height: 30px;
+width: 30px;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 70px;
+}
+
+.account_card h3 {
+  display:inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: relative;
+  top: -5px;
+  margin-right: 110px;
+}
+
+#account_type {
+  margin-right: 0px;
+}
+
+#credit1 {
+  margin-right: 84px;
+}
+
+#credit2{
+  margin-right: 62px;
+}
+
+.rightcolumn {
+  margin-left: 100px;
+  width: 500px;
+  height: 465px;
+  float: left;
+  background-color: white;
+  box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  text-align: left;
+  border-bottom: 1px solid;
+  border-color: black;
+  height: 35px;
+}
+
+tr border {
+  z-index: 10
+}
