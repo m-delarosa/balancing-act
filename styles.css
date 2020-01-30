@@ -41,14 +41,12 @@ main {
 }
 
 header {
-  margin-left: 38px;
   margin-top: 38px;
 }
 
 .leftcolumn {
-  margin-left: 3%;
   height: 400px;
-  width: 500px;
+  width: 527px;
   float: left;
 }
 
@@ -103,7 +101,7 @@ header {
 }
 
 .summary_card:not(:last-child) {
-  margin-right: 25px;
+  margin-right: 38px;
 }
 
 /* #center_white_space {
@@ -173,22 +171,28 @@ margin-right: 70px;
 }
 
 .rightcolumn {
-  margin-left: 100px;
-  width: 500px;
+  margin-left: 75px;
+  width: 527px;
   height: 465px;
   float: left;
   background-color: white;
   box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
+  padding: 0px 10px 0px 10px;
+}
+
+#accounts2 {
+  margin-top: 2px;
 }
 
 table {
   width: 100%;
+  border-collapse: collapse;
 }
 
 tr {
   text-align: left;
   border-bottom: 1px solid;
-  border-color: black;
+  border-color: #cccccc;
   height: 35px;
 }
 
