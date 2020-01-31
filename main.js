@@ -1,4 +1,4 @@
-var close = document.getElementById('x_button');
+var close = document.getElementById('x-button');
 var welcomeBox = document.getElementById('welcome');
 
 close.addEventListener("click", hideBanner)
