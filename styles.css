@@ -33,7 +33,15 @@ nav img {
 }
 
 .navlink {
-  margin-bottom: 20px;
+  width: 77px;
+  height: 36px;
+  margin-bottom: 25px;
+}
+
+.selected {
+  border-left: 3px solid #1CA3BA;
+  padding-left: -8px;
+  padding: 10px 0px 10px 0px;
 }
 
 main {
@@ -56,7 +64,6 @@ header {
   width: 100%;
   border-radius: 3px;
   box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
-  display: inline-block;
   margin-bottom: 25px;
 }
 
@@ -198,4 +205,8 @@ tr {
 
 tr border {
   z-index: 10
+}
+
+.hidden {
+  display: none;
 }

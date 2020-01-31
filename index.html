@@ -8,10 +8,16 @@
   </head>
   <body>
     <nav>
-      <a href="add_link"><img class="logo center" src="assets/elephant.svg" alt="logo elephant standing on world" title="home"></a>
-      <a href="add_link"><img class="center navlink" src="assets/dashboard.svg" alt="clipboard dashboard" title="dashboard"></a>
-      <a href="add_link"><img class="center navlink" src="assets/transactions.svg" alt="wallet transactions" title="view your transactions"></a>
-      <a href="add_link"><img class="center navlink" src="assets/profile.svg" alt="image of person" title="visit your profile"></a>
+        <a href="add_link"><img class="logo center" src="assets/elephant.svg" alt="logo elephant standing on world" title="home"></a>
+        <div class="selected navlink">
+          <a href="add_link"><img class="center" src="assets/dashboard.svg" alt="clipboard dashboard" title="dashboard"></a>
+        </div>
+        <div class="navlink">
+        <a href="add_link"><img class="center navlink" src="assets/transactions.svg" alt="wallet transactions" title="view your transactions"></a
+        </div>
+        <div class="navlink">
+        <a href="add_link"><img class="center navlink" src="assets/profile.svg" alt="image of person" title="visit your profile"></a>
+        </div>
     </nav>
     <main>
       <header>
@@ -67,7 +73,7 @@
       <section class="rightcolumn">
         <section class="accounts_header" id="accounts2">
           <h2>Recent Transactions</h2>
-          <button class="turq_button" type="button">MANAGE ACCOUNTS</button>
+          <button class="turq_button" type="button">NEW TRANSACTION</button>
       </section>
       <table>
           <tr>
@@ -132,5 +138,6 @@
           </tr>
       </table>
     </main>
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
