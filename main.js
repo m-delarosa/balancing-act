@@ -4,6 +4,8 @@ var navIcon = document.querySelector('.nav-link');
 var wallet = document.querySelector('.wallet');
 var profile = document.querySelector('.profile');
 var clipboard = document.querySelector('.clipboard');
+var leftColumn = document.querySelector('.left-column');
+var rightColumn = document.querySelector('.right-column');
 
 
 close.addEventListener("click", hideBanner);
@@ -22,6 +24,8 @@ function highlightProfile() {
 }
 
 function highlightWallet() {
+  leftColumn.classList.add('hidden');
+  rightColumn.classList.add('hidden');
   clipboard.classList.remove('selected');
   profile.classList.remove('selected');
   wallet.classList.add('selected');
