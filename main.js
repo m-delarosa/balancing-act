@@ -32,6 +32,8 @@ function highlightWallet() {
 }
 
 function highlightClipboard() {
+  leftColumn.classList.remove('hidden');
+  rightColumn.classList.remove('hidden');
   wallet.classList.remove('selected');
   profile.classList.remove('selected');
   clipboard.classList.add('selected');
