@@ -6,6 +6,7 @@ var profile = document.querySelector('.profile');
 var clipboard = document.querySelector('.clipboard');
 var leftColumn = document.querySelector('.left-column');
 var rightColumn = document.querySelector('.right-column');
+var dashboardView = document.querySelector('.dashboard-view');
 
 
 close.addEventListener("click", hideBanner);
@@ -24,16 +25,18 @@ function highlightProfile() {
 }
 
 function highlightWallet() {
-  leftColumn.classList.add('hidden');
-  rightColumn.classList.add('hidden');
+  // leftColumn.classList.add('hidden');
+  // rightColumn.classList.add('hidden');
+  dashboardView.classList.add('hidden');
   clipboard.classList.remove('selected');
   profile.classList.remove('selected');
   wallet.classList.add('selected');
 }
 
 function highlightClipboard() {
-  leftColumn.classList.remove('hidden');
-  rightColumn.classList.remove('hidden');
+  // leftColumn.classList.remove('hidden');
+  // rightColumn.classList.remove('hidden');
+  dashboardView.classList.remove('hidden');
   wallet.classList.remove('selected');
   profile.classList.remove('selected');
   clipboard.classList.add('selected');

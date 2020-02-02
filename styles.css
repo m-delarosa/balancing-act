@@ -91,6 +91,10 @@ header {
   margin-top: 38px;
 }
 
+h1 {
+  width: 550px;
+}
+
 /* || LEFT COLUMN */
 
 .left-column {
@@ -225,4 +229,25 @@ tr {
   border-bottom: 1px solid;
   border-color: #cccccc;
   height: 35px;
+}
+
+/* TRANSACTIONS VIEW */
+
+.transactions-left {
+  width: 550px;
+  height: 530px;
+  float: left;
+  background-color: white;
+  box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
+  /* padding: 10px; */
+  margin-right: 100px;
+}
+
+.transactions-right {
+  width: 447px;
+  height: 530px;
+  float: left;
+  background-color: white;
+  box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
+  /* padding: 10px; */
 }
