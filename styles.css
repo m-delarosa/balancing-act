@@ -19,6 +19,7 @@ color: #363636;
   padding: 5px 15px 0px 15px;
   margin-top: 25px;
   font-size: medium;
+  cursor: pointer
 }
 
 .header-button-blue {
@@ -33,6 +34,7 @@ color: #363636;
   color: white;
   font-size: 10px;
   padding: 5px 15px 0px 15px;
+  cursor: pointer
 }
 
 .header-button-white {
@@ -48,6 +50,7 @@ color: #363636;
   border-radius: 2em;
   padding: 5px 15px 0px 15px;
   margin: auto;
+  cursor: pointer
 }
 
 /* || UTILITIES */
@@ -61,6 +64,12 @@ color: #363636;
 
 .hidden {
   display: none;
+}
+
+.center-text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* || NAV BAR */
@@ -270,7 +279,7 @@ tr {
   background-color: white;
   box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
   padding: 10px;
-  margin-right: 100px;
+  margin-right: 75px;
   overflow: hidden;
 }
 
@@ -281,9 +290,45 @@ tr {
   float: left;
   background-color: white;
   box-shadow: 0 0 10.5px -6.5px rgba(0,0,0,0.5);
-  /* padding: 10px; */
 }
 
 .outflow {
   padding-left: 13px;
+}
+
+.transactions-right h2 {
+  position:relative;
+  bottom: 17px;
+  margin-bottom: 0;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  bottom: 10px;
+}
+
+form p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 13px;
+}
+
+select, input {
+  margin: 0;
+  margin-bottom: 13px;
+  width: 100%;
+  border: 0;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 5px 0px rgba(0,0,0,0.5);
+  height: 25px;
+  border-radius: 5px;
+}
+
+.form-button {
+  position: relative;
+  bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
